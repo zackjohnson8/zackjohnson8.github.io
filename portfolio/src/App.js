@@ -1,14 +1,14 @@
-import staticphoto from './BusinessCas1to1.jpg';
 import './App.css';
+import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={staticphoto} className="App-logo" alt="logo" />
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <About/>
+            <Skills/>
+        </div>
+    );
 }
 
 export default App;
