@@ -10,6 +10,7 @@ function About() {
                     Welcome to my portfolio! I am currently working on this page, so please check back soon!
                 </p>
             </header>
+            <div className="ScrollIndicator">⬇</div>
         </div>
     );
 }
