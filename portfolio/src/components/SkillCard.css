@@ -1,0 +1,12 @@
+/* Setup SkillCard to have a flexbox layout */
+.SkillCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}

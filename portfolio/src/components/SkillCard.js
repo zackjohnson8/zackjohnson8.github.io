@@ -1,10 +1,10 @@
-const SkillCard = ({ title, description, imageUrl }) => {
+import './SkillCard.css'
+
+const SkillCard = ({ title, description }) => {
     return (
-        <div>
+        <div className="SkillCard">
             <h3>{title}</h3>
             <p>{description}</p>
-            {/* if you added an image url to your skillsData, you can display it like this: */}
-            {/* <img src={imageUrl} alt={title} /> */}
         </div>
     );
 };
