@@ -1,0 +1,21 @@
+.ContactCard img {
+    width: 50px; /* adjust as needed */
+    height: 50px; /* adjust as needed */
+
+    flex: 0 1 200px;  /* This will make the cards respect their minimum width, but they will not grow to fill the container */
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 32px;
+}
+
+.ContactGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust this value to increase or decrease the space between the cards */
+}
+
+.Contact a img {
+    border: none;
+    outline: none;
+}
