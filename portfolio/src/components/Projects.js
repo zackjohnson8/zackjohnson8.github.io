@@ -25,7 +25,7 @@ const Projects = () => {
 
     return (
         <div className="Projects">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <div className="ProjectsGrid">
                 {/* Setup skillsData as a two column grid*/}
                 {projectsData.map(skill => (

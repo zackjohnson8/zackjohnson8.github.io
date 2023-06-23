@@ -40,3 +40,19 @@
         transform: translateX(-50%) translateY(-15px);
     }
 }
+
+.EntryText {
+    text-align: center;
+    margin: 100px;
+}
+
+.TitleHeader {
+    margin-top: 0;
+    font-size: 4rem;
+}
+
+.PortfolioHeader {
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}

@@ -66,7 +66,7 @@ const Skills = () => {
 
     return (
         <div className="Skills">
-            <h2>Language Experience</h2>
+            <h1>Language Experience</h1>
             <div className="SkillsGrid">
                 {/* Setup skillsData as a two column grid*/}
                 {skillsData.map(skill => (
