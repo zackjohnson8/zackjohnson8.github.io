@@ -1,5 +1,5 @@
 import './Contact.css'
-import githubLogo from './github-mark-white.png'
+import githubLogo from './github-mark.png'
 import linkedinLogo from './LI-In-Bug.png'
 
 const Contact = () => {
@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="ContactGrid">
                 <div className="ContactCard">
                     <h3>Email</h3>
-                    <p>zackjohnson8@gmail.com</p>
+                    <a href="mailto:zackjohnson8@gmail.com">zackjohnson8@gmail.com</a>
                 </div>
                 <div className="ContactCard">
                     <h3>LinkedIn</h3>
