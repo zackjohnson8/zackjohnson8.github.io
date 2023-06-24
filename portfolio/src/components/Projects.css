@@ -5,3 +5,10 @@
     padding: 20px;
     max-width: 100%;
 }
+
+/* Setup project grid for mobile */
+@media (max-width: 768px) {
+    .ProjectsGrid {
+        grid-template-columns: 1fr;
+    }
+}
