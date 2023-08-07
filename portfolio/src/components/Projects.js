@@ -5,21 +5,21 @@ const Projects = () => {
     const projectsData = [
         {
             id: 1,
+            title: 'Pocket Professional',
+            description: 'A deployed iOS app that leverages the use of ChatGPT API.',
+            url: 'https://apps.apple.com/us/app/pocket-professional/id6449138114'
+        },
+        {
+            id: 2,
             title: 'Food for Traders',
             description: 'A financial news and analysis website for traders.',
             url: 'https://www.foodfortraders.com/'
         },
         {
-            id: 2,
+            id: 3,
             title: 'PinDit',
             description: 'Keep track of your travels with PinDit. Pin your favorite places on the map and add notes.',
             url: 'https://apps.apple.com/us/app/pindit/id1547133643'
-        },
-        {
-            id: 3,
-            title: 'TeamCity Server',
-            description: 'Launch your own TeamCity instance on your local machine using Docker.',
-            url: 'https://github.com/zackjohnson8/TeamCityServer'
         }
     ];
 
